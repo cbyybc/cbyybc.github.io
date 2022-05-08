@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://localhost:4000</id>
+    <id>https://cbyybc.github.io</id>
     <title>cby的blog</title>
-    <updated>2022-05-08T12:10:07.874Z</updated>
+    <updated>2022-05-08T12:25:30.210Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://localhost:4000"/>
-    <link rel="self" href="http://localhost:4000/atom.xml"/>
+    <link rel="alternate" href="https://cbyybc.github.io"/>
+    <link rel="self" href="https://cbyybc.github.io/atom.xml"/>
     <subtitle>相信柯学，更信玄学</subtitle>
-    <logo>http://localhost:4000/images/avatar.png</logo>
-    <icon>http://localhost:4000/favicon.ico</icon>
+    <logo>https://cbyybc.github.io/images/avatar.png</logo>
+    <icon>https://cbyybc.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, cby的blog</rights>
     <entry>
         <title type="html"><![CDATA[樱花庄其实亦在每个人的身边]]></title>
-        <id>http://localhost:4000/post/ying-hua-zhuang-qi-shi-yi-zai-mei-ge-ren-de-shen-bian/</id>
-        <link href="http://localhost:4000/post/ying-hua-zhuang-qi-shi-yi-zai-mei-ge-ren-de-shen-bian/">
+        <id>https://cbyybc.github.io/post/ying-hua-zhuang-qi-shi-yi-zai-mei-ge-ren-de-shen-bian/</id>
+        <link href="https://cbyybc.github.io/post/ying-hua-zhuang-qi-shi-yi-zai-mei-ge-ren-de-shen-bian/">
         </link>
         <updated>2022-02-07T14:26:05.000Z</updated>
         <content type="html"><![CDATA[<p>有这样一部小说，销量人气一直不高，可以说是十分小众，但在我心目中却是一部神作。它就是鸭田志一的《樱花庄的宠物女孩》。它人气远不如其作者的另一部作品《青春猪头少年》系列，确实一部很有深度的作品。<br>
@@ -32,8 +32,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[读者须知]]></title>
-        <id>http://localhost:4000/post/du-zhe-xu-zhi/</id>
-        <link href="http://localhost:4000/post/du-zhe-xu-zhi/">
+        <id>https://cbyybc.github.io/post/du-zhe-xu-zhi/</id>
+        <link href="https://cbyybc.github.io/post/du-zhe-xu-zhi/">
         </link>
         <updated>2020-02-29T06:42:29.000Z</updated>
         <content type="html"><![CDATA[<h2 id="关于作者">关于作者</h2>

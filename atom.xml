@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://cbyybc.github.io</id>
+    <id>http://localhost:4000</id>
     <title>cby的blog</title>
-    <updated>2022-05-08T09:47:48.270Z</updated>
+    <updated>2022-05-08T12:10:07.874Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://cbyybc.github.io"/>
-    <link rel="self" href="https://cbyybc.github.io/atom.xml"/>
+    <link rel="alternate" href="http://localhost:4000"/>
+    <link rel="self" href="http://localhost:4000/atom.xml"/>
     <subtitle>相信柯学，更信玄学</subtitle>
-    <logo>https://cbyybc.github.io/images/avatar.png</logo>
-    <icon>https://cbyybc.github.io/favicon.ico</icon>
+    <logo>http://localhost:4000/images/avatar.png</logo>
+    <icon>http://localhost:4000/favicon.ico</icon>
     <rights>All rights reserved 2022, cby的blog</rights>
     <entry>
         <title type="html"><![CDATA[樱花庄其实亦在每个人的身边]]></title>
-        <id>https://cbyybc.github.io/post/ying-hua-zhuang-qi-shi-yi-zai-mei-ge-ren-de-shen-bian/</id>
-        <link href="https://cbyybc.github.io/post/ying-hua-zhuang-qi-shi-yi-zai-mei-ge-ren-de-shen-bian/">
+        <id>http://localhost:4000/post/ying-hua-zhuang-qi-shi-yi-zai-mei-ge-ren-de-shen-bian/</id>
+        <link href="http://localhost:4000/post/ying-hua-zhuang-qi-shi-yi-zai-mei-ge-ren-de-shen-bian/">
         </link>
         <updated>2022-02-07T14:26:05.000Z</updated>
         <content type="html"><![CDATA[<p>有这样一部小说，销量人气一直不高，可以说是十分小众，但在我心目中却是一部神作。它就是鸭田志一的《樱花庄的宠物女孩》。它人气远不如其作者的另一部作品《青春猪头少年》系列，确实一部很有深度的作品。<br>
@@ -27,29 +27,13 @@
 ——“是樱色！”<br>
 樱花庄中绽放的笑颜，完全不输盛开的樱花。<br>
 “ 只要有心，世界可以一瞬间转变色彩！”</p>
-<pre><code>                                                            ————2022.2.7
-</code></pre>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OS（OverSoul）保密协议]]></title>
-        <id>https://cbyybc.github.io/post/osoversoulbao-mi-xie-yi/</id>
-        <link href="https://cbyybc.github.io/post/osoversoulbao-mi-xie-yi/">
-        </link>
-        <updated>2020-04-02T12:40:03.000Z</updated>
-        <content type="html"><![CDATA[<p>OS（OverSoul）保密协议</p>
-<p>①所有成员都<strong>必须</strong>向外人保密OS游戏的存在。<br>
-②若有新成员想要加入，必须有<strong>超过一半</strong>以上的老成员同意。<br>
-③所有成员都有权利知道现在游戏的 进度/目标/代码等等。<br>
-④如果有成员想要退出，则②③两条自动作废，但是①仍然存在。<br>
-⑤协议从即日起生效，知道游戏的完成。<br>
-2020.4.2</p>
+<p>————2022.2.7</p>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[读者须知]]></title>
-        <id>https://cbyybc.github.io/post/du-zhe-xu-zhi/</id>
-        <link href="https://cbyybc.github.io/post/du-zhe-xu-zhi/">
+        <id>http://localhost:4000/post/du-zhe-xu-zhi/</id>
+        <link href="http://localhost:4000/post/du-zhe-xu-zhi/">
         </link>
         <updated>2020-02-29T06:42:29.000Z</updated>
         <content type="html"><![CDATA[<h2 id="关于作者">关于作者</h2>
@@ -65,7 +49,17 @@
 <li>使用目的：<s>乱搞</s></li>
 </ul>
 <h2 id="关于reader">关于reader</h2>
-<p>在此，cby真诚的感谢您的观看、评价。</p>
+<p>在此，cby真诚的感谢您的观看。😜<br>
+--2020.5.5<br>
+——————————————————————</p>
+<h2 id="updated">Updated</h2>
+<ul>
+<li>初中生-&gt;高中生</li>
+<li>CR已退游，改玩三国杀OL</li>
+<li>more and more 中二</li>
+<li>OI退役，现役菜鸡MOer<br>
+--2022.5.8</li>
+</ul>
 ]]></content>
     </entry>
 </feed>

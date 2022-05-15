@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cbyybc.github.io</id>
     <title>cby的blog</title>
-    <updated>2022-05-08T12:25:30.210Z</updated>
+    <updated>2022-05-15T13:17:08.339Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cbyybc.github.io"/>
     <link rel="self" href="https://cbyybc.github.io/atom.xml"/>
@@ -11,7 +11,21 @@
     <icon>https://cbyybc.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, cby的blog</rights>
     <entry>
-        <title type="html"><![CDATA[樱花庄其实亦在每个人的身边]]></title>
+        <title type="html"><![CDATA[【游记】2022浙江省数学初赛]]></title>
+        <id>https://cbyybc.github.io/post/you-ji-2022-zhe-jiang-sheng-shu-xue-chu-sai/</id>
+        <link href="https://cbyybc.github.io/post/you-ji-2022-zhe-jiang-sheng-shu-xue-chu-sai/">
+        </link>
+        <updated>2022-05-12T14:35:54.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="蒟蒻cby将于2022522于xshs参赛">蒟蒻cby将于2022.5.22于xshs参赛</h1>
+<h2 id="day-infty-还在颓废和摆文化课">Day -<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∞</mi></mrow><annotation encoding="application/x-tex">\infty</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord">∞</span></span></span></span> ：还在颓废和摆文化课......</h2>
+<p>.<br>
+.<br>
+.</p>
+<h2 id="day-10-开坑">Day -10 ：开坑</h2>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[此生无悔恋真白，来世愿入樱花庄]]></title>
         <id>https://cbyybc.github.io/post/ying-hua-zhuang-qi-shi-yi-zai-mei-ge-ren-de-shen-bian/</id>
         <link href="https://cbyybc.github.io/post/ying-hua-zhuang-qi-shi-yi-zai-mei-ge-ren-de-shen-bian/">
         </link>
@@ -40,7 +54,7 @@
 <ul>
 <li>一个学习成绩一般的普通初中生</li>
 <li>一个热爱IO，更热爱颓废的蒟蒻oier</li>
-<li>一个热衷于打CR，却一直只有4600杯的菜鸡</li>
+<li>一个热衷于打CR，却一直只有5600杯的菜鸡</li>
 </ul>
 <h2 id="关于blog">关于blog</h2>
 <ul>

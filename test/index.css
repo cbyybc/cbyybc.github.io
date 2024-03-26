@@ -1,0 +1,93 @@
+body{
+    background-color: #F5F5F5;
+}
+.login{
+    height: 300px;
+    width: 270px;
+    margin: 0 auto;
+    margin-top: 15%;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color: #ffffff;
+}
+.login:hover{
+    box-shadow: 0px 5px 0px #D7D7D7;
+}
+.register{
+    height: 400px;
+    width: 270px;
+    margin: 0 auto;
+    margin-top: 15%;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color: #ffffff;
+}
+.register:hover{
+    box-shadow: 0px 5px 0px #D7D7D7;
+}
+a{
+    text-decoration: none;
+    color: #3ABFD2;
+}
+input {
+    margin: 0;
+    font-size: 16px;
+    height: 30px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    transition: 0.5s;
+}
+input:hover{
+    box-shadow: 0px 5px 0px #D7D7D7;
+}
+.input{
+    width: 250px;
+    clear: both;
+}
+.submit{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.input-fill-x, .input-outline-x, .textarea-outline-x {
+    position: relative;
+}
+.input-control:focus + label {
+    color: blue;
+    background: white;
+    transform: scale(0.8) translate(0, -15px);
+}
+.input-label {
+    padding: 0 10px;
+    position: absolute;
+    left: 30px;
+    top: 5px;
+    transform-origin: 0 0;
+    pointer-events: none;
+    transition: all .3s;
+}
+.submit {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #ced4da;
+  box-shadow: 0 0px #adb5bd;
+}
+.submit:hover {
+  box-shadow: 0 5px 0px #adb5bd;
+}
+.submit:active {
+  box-shadow: 0 0 #adb5bd;
+  top: 5px;
+}

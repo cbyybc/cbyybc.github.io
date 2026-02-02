@@ -1,0 +1,182 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Oversoul | cbyのblog</title>
+<link rel="shortcut icon" href="https://cbyybc.github.io/favicon.ico?v=1770005472814">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cbyybc.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="Oversoul | cbyのblog - Atom Feed" href="https://cbyybc.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="制作日志：
+
+2020.4.1    搭建好pygame平台，开始准备工作😀，构建了大致剧情，打完大致代码，可是有不少错误😭😓。
+2020.4.2    已经初步完成游戏剧情开头和人物走路方式，舒服🙂🙃（并且完成了“OverSou..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://cbyybc.github.io">
+  <img class="avatar" src="https://cbyybc.github.io/images/avatar.png?v=1770005472814" alt="">
+  </a>
+  <h1 class="site-title">
+    cbyのblog
+  </h1>
+  <p class="site-description">
+    QwQ
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/2048-master" class="menu">
+          2048
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+        <a href="https://www.zhihu.com/people/25kchun-shuai-47" target="_blank">
+          <i class="ri-zhihu-line"></i>
+        </a>
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              Oversoul
+            </h2>
+            <div class="post-info">
+              <span>
+                2020-04-01
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <h2 id="制作日志">制作日志：</h2>
+<ul>
+<li>2020.4.1    搭建好pygame平台，开始准备工作😀，构建了大致剧情，打完大致代码，可是有不少错误😭😓。</li>
+<li>2020.4.2    已经初步完成游戏剧情开头和人物走路方式，舒服🙂🙃（并且完成了“OverSoul保密协议”（瞎搞的））😂</li>
+<li>2020.4.3    完善改进了人物走路方式，抠图完成（学校功课有点多，所以做得有点少👎😥）</li>
+<li>2020.4.4    清明节，全国进行了哀悼仪式，因此有点忙，只初步做了存档点👎😤</li>
+<li>2020.4.5-2020.4.9    休息几天😜</li>
+<li>2020.4.10  完成存档点和初步箱子设置😋</li>
+<li>2020.4.11-2020.4.16 完成公告牌😵</li>
+<li>2020.4.17  招了不少人员加入😄😏👍</li>
+<li>2020.5.1   **初步完成第一只怪！！！**😎</li>
+<li>2020.5.5    休息几天（交给zzm了😤</li>
+</ul>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E5%88%B6%E4%BD%9C%E6%97%A5%E5%BF%97">制作日志：</a></li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">cby</a>
+  <a class="rss" href="https://cbyybc.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

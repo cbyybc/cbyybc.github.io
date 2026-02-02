@@ -1,0 +1,170 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>OS（OverSoul）保密协议 | cbyのblog</title>
+<link rel="shortcut icon" href="https://cbyybc.github.io/favicon.ico?v=1770005472814">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cbyybc.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="OS（OverSoul）保密协议 | cbyのblog - Atom Feed" href="https://cbyybc.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="OS（OverSoul）保密协议
+①所有成员都必须向外人保密OS游戏的存在。
+②若有新成员想要加入，必须有超过一半以上的老成员同意。
+③所有成员都有权利知道现在游戏的 进度/目标/代码等等。
+④如果有成员想要退出，则②③两条自动作废，但是①..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://cbyybc.github.io">
+  <img class="avatar" src="https://cbyybc.github.io/images/avatar.png?v=1770005472814" alt="">
+  </a>
+  <h1 class="site-title">
+    cbyのblog
+  </h1>
+  <p class="site-description">
+    QwQ
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/2048-master" class="menu">
+          2048
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+        <a href="https://www.zhihu.com/people/25kchun-shuai-47" target="_blank">
+          <i class="ri-zhihu-line"></i>
+        </a>
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              OS（OverSoul）保密协议
+            </h2>
+            <div class="post-info">
+              <span>
+                2020-04-02
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>OS（OverSoul）保密协议</p>
+<p>①所有成员都<strong>必须</strong>向外人保密OS游戏的存在。<br>
+②若有新成员想要加入，必须有<strong>超过一半</strong>以上的老成员同意。<br>
+③所有成员都有权利知道现在游戏的 进度/目标/代码等等。<br>
+④如果有成员想要退出，则②③两条自动作废，但是①仍然存在。<br>
+⑤协议从即日起生效，知道游戏的完成。<br>
+2020.4.2</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">cby</a>
+  <a class="rss" href="https://cbyybc.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

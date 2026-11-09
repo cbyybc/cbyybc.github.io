@@ -1,0 +1,183 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>从问题出发，而非天马行空的方法 | cbyのblog</title>
+<link rel="shortcut icon" href="https://cbyybc.github.io/favicon.ico?v=1794201430969">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cbyybc.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="从问题出发，而非天马行空的方法 | cbyのblog - Atom Feed" href="https://cbyybc.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="这一点应该是理论专业和计算机/AI这样一个实验学科最大的区别了。
+如果仅靠灵光一现的想法，而没有对问题有一个充分的了解，那么多半会是浪费时间。
+当然不得不喷的还有AI的选题，你不质疑自己可能完全发现不到问题。
+最近决定结束一个持续了一段时间..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://cbyybc.github.io">
+  <img class="avatar" src="https://cbyybc.github.io/images/avatar.png?v=1794201430969" alt="">
+  </a>
+  <h1 class="site-title">
+    cbyのblog
+  </h1>
+  <p class="site-description">
+    QwQ
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+        <a href="https://www.zhihu.com/people/25kchun-shuai-47" target="_blank">
+          <i class="ri-zhihu-line"></i>
+        </a>
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              从问题出发，而非天马行空的方法
+            </h2>
+            <div class="post-info">
+              <span>
+                2026-11-09
+              </span>
+              <span>
+                4 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>这一点应该是理论专业和计算机/AI这样一个实验学科最大的区别了。</p>
+<p>如果仅靠灵光一现的想法，而没有对问题有一个充分的了解，那么多半会是浪费时间。</p>
+<p>当然不得不喷的还有AI的选题，你不质疑自己可能完全发现不到问题。</p>
+<p>最近决定结束一个持续了一段时间的研究项目。虽然完成了不少实验和开发工作，但最终还是放弃了最初的研究方向。</p>
+<p>项目最初的设想是利用大模型 Agent 自动检测并修复三维网格缺陷。当时更多考虑的是技术可行性：有没有合适的数据和工具，如何设计系统，怎样通过多轮交互提高修复能力。直到真正开始实验，才逐渐意识到研究动机本身存在问题。</p>
+<p><strong>第一个转折来自强模型的表现。</strong></p>
+<p>原本以为需要专门设计 Agent 才能解决的几何问题，Astra 在少量实验中已经能够通过生成代码和调用传统算法完成。甚至有些任务只需要直接判断无需修改。虽然这远不足以证明网格修复已经被解决，但至少说明，我们预想的技术难点未必真正存在。</p>
+<p><strong>第二个转折来自弱模型的对照实验。</strong></p>
+<p>既然强模型已经具备相当不错的能力，我们开始考虑通过 Agent 提升弱模型。然而实验发现，弱模型的主要困难甚至不是几何修复本身，而是工具使用、任务规划和最终提交。这让研究方向逐渐偏离几何算法，变成了如何弥补当前模型的通用能力缺陷。</p>
+<p><strong>第三个转折来自评价体系。</strong></p>
+<p>即使模型修复后的网格在几何上完全合法，也不意味着它符合原本的设计意图。要可靠地评价修复质量，就需要明确的设计真值和足够完善的 Benchmark。而构建这些数据本身，又意味着大量额外工作。</p>
+<p>回头看，项目的研究目标从几何修复逐渐转向 Agent 增强、模型能力评测，甚至知识蒸馏。每一次调整都有合理的动机，但也暴露出最初选题时没有回答的根本问题：</p>
+<p><strong>即使最终成功了，我们究竟解决了什么现有方法没有解决好的问题？</strong></p>
+<p>这次最大的失误，不是没有提前预测到模型的能力，也不是缺少现成的数据集，而是没有充分验证研究问题的价值，就过早投入了工程实现。</p>
+<p>科研当然不可能在开始之前排除所有不确定性。但至少应该先了解最强基线的能力边界，明确评价标准，并尝试用最简单的实验推翻自己的设想，而不是等投入大量时间后才开始寻找创新点。</p>
+<p>这次项目没有得到最初期待的结果，却让我重新认识了科研中最重要、也最容易被忽略的一步：选题。</p>
+<p><strong>工程能力决定一个想法能被实现到什么程度，而科研判断力决定这个想法是否值得实现。</strong></p>
+<p>前者AI已经能达到95%的水平了，而后者才是科研者需要重点研究的部分了。</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://cbyybc.github.io/post/yi-ge-jian-ding-fan-auto-research-de-ren-zan-shi/">
+              <h3 class="post-title">
+                一个坚定反auto-research的人（暂时）
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">cby</a>
+  <a class="rss" href="https://cbyybc.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
